@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+body{
+    background-color:   #f0f4f5;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.logo{
+    height: 50px;
+    margin-left: 100%;
+    margin-top: 7px;
+}
+
+.navigation ul{
+    display: flex;
+    flex-direction: row;
+    gap: 55px;
+    list-style: none;
+    margin-left: 680px;
+}
+
+.navigation ul a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+main{
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form{
+    height: 430px;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form h1{
+    margin-top:10px;
+}
+
+.form div{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+input{
+    border-radius: 10px;
+    color: #aa9e9ed0;
+    font-weight: 500;
+    font-size: 13px;
+    border: none;
+    background:#fff;
+    padding-top: 3px;
+    padding-left: 8px;
+    padding-bottom: 4px;
+    padding-right: 150px;
+    margin-top: -5px;
+}
+
+textarea{
+    border-radius: 10px;
+    color: #aa9e9ed0;
+    font-weight: 500;
+    font-size: 13px;
+    border: none;
+    background:#fff;
+    padding-right: 150px;
+    padding-left: 8px;
+    margin-top: -5px;
+}
+
+.name,.email,.text{
+    margin-bottom: 15px;
+}
+
+.btn{
+    margin-top: 10px;
+    background:#20BC7E;
+    padding-left: 137px;
+    padding-right: 137px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    margin-top: -1px;
+}

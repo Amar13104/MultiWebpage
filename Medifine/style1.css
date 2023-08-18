@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+body{
+    background-color:   #f0f4f5;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.logo{
+    height: 50px;
+    margin-left: 100%;
+    margin-top: 7px;
+}
+
+.navigation ul{
+    display: flex;
+    flex-direction: row;
+    gap: 55px;
+    list-style: none;
+    margin-left: 680px;
+}
+
+.navigation ul a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.box{
+    height: 100px;
+    width: 180px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    margin-top: 11%;
+    margin-left: 32%;
+}
+
+.top h1{
+    color: #20BC7E;
+    font-size: 31px;
+}
+
+.top p{
+    font-weight: 500;
+    margin-left: -56px;
+}
+
+.Bottom{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-left: -75px;
+    margin-top: 40px;
+}
+
+span1{
+  margin-left: 10px;
+}
+
+span2{
+    margin-left: 100px;
+}
+
+.box span3,span5,span7{
+    color: #20BC7E;
+    font-size: 23px;
+    font-weight: 800;
+}
+
+.box span4,span6,span8{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+span3{
+    margin-left:17px;
+}
+
+span7{
+    margin-left: 13px;
+}
